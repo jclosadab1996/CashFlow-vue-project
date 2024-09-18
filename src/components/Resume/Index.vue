@@ -12,9 +12,9 @@
 </template>
 
 <script>
-const currencyFormatter = new Intl.NumberFormat("es-MX", {
+const currencyFormatter = new Intl.NumberFormat("es-CO", {
   style: "currency",
-  currency: "MXN",
+  currency: "COP",
 });
 
 export default {
